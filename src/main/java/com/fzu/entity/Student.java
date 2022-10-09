@@ -9,4 +9,5 @@ public class Student {
     private String name;
     private int validCnt;
     private int consecutiveAttendCnt;
+    private int scorePosition;
 }

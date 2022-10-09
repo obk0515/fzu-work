@@ -98,4 +98,12 @@ class AlgorithmApplicationTests {
             contextLoads();
         }
     }
+
+    @Test
+    void test1(){
+        List<Student> list = studentService.list();
+        for (Student student : list) {
+            student.getScorePosition();
+        }
+    }
 }

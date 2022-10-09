@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="初始项目">
+    <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="点名算法实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +60,7 @@
       <recent name="D:\fzu\软工\dianming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlgorithmApplicationTests.test3">
+  <component name="RunManager" selected="JUnit.AlgorithmApplicationTests.test1">
     <configuration name="AlgorithmApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dianming" />
       <extension name="coverage">
@@ -144,10 +134,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlgorithmApplicationTests.test1" />
         <item itemvalue="JUnit.AlgorithmApplicationTests.test3" />
         <item itemvalue="JUnit.AlgorithmApplicationTests.contextLoads" />
         <item itemvalue="JUnit.AlgorithmApplicationTests.test2" />
-        <item itemvalue="JUnit.AlgorithmApplicationTests.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +153,9 @@
       <workItem from="1665143489500" duration="8752000" />
       <workItem from="1665212806831" duration="7948000" />
       <workItem from="1665249502919" duration="4365000" />
-      <workItem from="1665283687864" duration="10358000" />
+      <workItem from="1665283687864" duration="10531000" />
+      <workItem from="1665318895874" duration="1253000" />
+      <workItem from="1665325815324" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="初始项目">
       <created>1665159329528</created>
@@ -172,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665159329528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="点名算法实现">
+      <created>1665308038886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665308038887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始项目" />
+    <MESSAGE value="点名算法实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="点名算法实现" />
   </component>
 </project>
