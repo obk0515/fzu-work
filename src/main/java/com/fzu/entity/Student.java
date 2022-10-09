@@ -7,4 +7,6 @@ public class Student {
     private int id;
     private String sid;
     private String name;
+    private int validCnt;
+    private int consecutiveAttendCnt;
 }

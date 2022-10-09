@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="" />
+    <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="初始项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,10 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\fzu\软工\dianming\src\main\java\com\fzu\utils" />
       <recent name="D:\fzu\软工\dianming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlgorithmApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.AlgorithmApplicationTests.test3">
     <configuration name="AlgorithmApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dianming" />
       <extension name="coverage">
@@ -73,6 +87,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlgorithmApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dianming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzu" />
+      <option name="MAIN_CLASS_NAME" value="com.fzu.AlgorithmApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dianming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzu" />
+      <option name="MAIN_CLASS_NAME" value="com.fzu.AlgorithmApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmApplicationTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dianming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzu" />
+      <option name="MAIN_CLASS_NAME" value="com.fzu.AlgorithmApplicationTests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlgorithmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dianming" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fzu.AlgorithmApplication" />
@@ -82,7 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlgorithmApplicationTests.test3" />
         <item itemvalue="JUnit.AlgorithmApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.AlgorithmApplicationTests.test2" />
+        <item itemvalue="JUnit.AlgorithmApplicationTests.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -95,8 +160,19 @@
       <option name="presentableId" value="Default" />
       <updated>1665141722525</updated>
       <workItem from="1665141724518" duration="1735000" />
-      <workItem from="1665143489500" duration="8075000" />
+      <workItem from="1665143489500" duration="8752000" />
+      <workItem from="1665212806831" duration="7948000" />
+      <workItem from="1665249502919" duration="4365000" />
+      <workItem from="1665283687864" duration="10358000" />
     </task>
+    <task id="LOCAL-00001" summary="初始项目">
+      <created>1665159329528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665159329528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +189,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始项目" />
   </component>
 </project>
