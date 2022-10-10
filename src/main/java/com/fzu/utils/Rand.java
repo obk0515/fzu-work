@@ -27,7 +27,7 @@ public class Rand {
 		int fixed_absent_num=5 + random.nextInt( 4);
 		return fixed_absent_num;
 	}
-	
+
 	public static int random(List<Integer> weight){
 		List<Integer> weightTmp = new ArrayList<Integer>();
 		weightTmp.add(0);
