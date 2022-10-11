@@ -13,6 +13,11 @@ public class RollCall {
     private StudentService studentService;
 
 
+    /**
+     * 获取点名方案
+     * @param classNumber
+     * @return
+     */
     public List<Student> getProgramme(int classNumber){
         if (classNumber==1){
             return studentService.list();
@@ -22,6 +27,26 @@ public class RollCall {
         }
     }
 
+    /**
+     * 根据获取点名方案
+     * @param classNumber
+     * @return
+     */
+    public List<Student> getProgrammeByScore(int classNumber){
+        if (classNumber==1){
+            List<Student> studentList = studentService.list();
+            studentList.removeIf(student -> student.getScorePosition()<=80);
+            return studentList;
+        }else{
+            List<Student> absentList=studentService.getAbsentList();
+            return absentList;
+        }
+    }
+
+    /**
+     * 更新学生表中学生缺勤信息
+     * @param idList
+     */
     public void updateAbsent(List<Integer> idList){
         studentService.updateValidCntByIdList(idList);
         studentService.initConsecutiveAttendCntByIdList(idList);

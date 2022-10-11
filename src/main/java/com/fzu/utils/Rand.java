@@ -3,6 +3,9 @@ package com.fzu.utils;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
@@ -76,6 +79,20 @@ public class Rand {
 			}
 			map.put(absent_stu_id.get(j), putlist);
 		}
+		String toString = map.toString();
+		try {
+			toString="固定缺勤的5-8人及缺勤课次：\n"+toString+"\n";
+			File file =new File("逃课人员.txt");
+			if(!file.exists()){
+				file.createNewFile();
+			}
+			//使用true，即进行append file
+			FileWriter fileWritter = new FileWriter(file.getName(),true);
+			fileWritter.write(toString);
+			fileWritter.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		return map;
 	}
 	//生成20次课中每次课额外缺勤的学生id
@@ -104,6 +121,20 @@ public class Rand {
 			//遍历集合
 			List<Integer> putlist = new ArrayList<>(set);
 			map.put(j, putlist);
+		}
+		String toString = map.toString();
+		try {
+			toString="每节课额外缺勤的0-3人：\n"+toString+"\n";
+			File file =new File("逃课人员.txt");
+			if(!file.exists()){
+				file.createNewFile();
+			}
+			//使用true，即进行append file
+			FileWriter fileWritter = new FileWriter(file.getName(),true);
+			fileWritter.write(toString);
+			fileWritter.close();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 		return map;
 	}
