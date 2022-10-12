@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="根据绩点点名方法的增加">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="完善">
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +189,7 @@
       <workItem from="1665480881633" duration="51000" />
       <workItem from="1665494087456" duration="3445000" />
       <workItem from="1665503518556" duration="4040000" />
-      <workItem from="1665550233631" duration="3549000" />
+      <workItem from="1665550233631" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="初始项目">
       <created>1665159329528</created>
@@ -226,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665497258119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完善">
+      <created>1665555340755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665555340755</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完善">
+      <created>1665555449602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665555449602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +256,7 @@
     <MESSAGE value="点名算法实现" />
     <MESSAGE value="绩点排名参数增加" />
     <MESSAGE value="根据绩点点名方法的增加" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据绩点点名方法的增加" />
+    <MESSAGE value="完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善" />
   </component>
 </project>
