@@ -1,0 +1,285 @@
+Index: student.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/student.sql b/student.sql
+new file mode 100644
+--- /dev/null	(date 1665507053907)
++++ b/student.sql	(date 1665507053907)
+@@ -0,0 +1,104 @@
++
++CREATE TABLE `student` (
++  `id` int NOT NULL AUTO_INCREMENT COMMENT '编号',
++  `sid` varchar(20) NOT NULL COMMENT '学号',
++  `name` varchar(30) NOT NULL COMMENT '姓名',
++  `valid_cnt` int NOT NULL DEFAULT '0' COMMENT '被点到缺勤次数',
++  `consecutive_attend_cnt` int NOT NULL DEFAULT '0' COMMENT '连续出席次数',
++  `score_position` int NOT NULL COMMENT '绩点排名',
++  PRIMARY KEY (`id`)
++) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
++
++/*Data for the table `student` */
++
++insert  into `student`(`id`,`sid`,`name`,`valid_cnt`,`consecutive_attend_cnt`,`score_position`) values 
++(1,'032002101','查瑞',0,0,1),
++(2,'032002102','暴素',0,0,2),
++(3,'032002103','任思思',0,0,3),
++(4,'032002104','濮博',0,0,4),
++(5,'032002105','胥民',0,0,5),
++(6,'032002106','辛超',0,0,6),
++(7,'032002107','佴瑞素',0,0,7),
++(8,'032002108','沃龙',0,0,8),
++(9,'032002109','哈梦',0,0,9),
++(10,'032002110','从利',0,0,10),
++(11,'032002111','伊谦元',0,0,11),
++(12,'032002112','祝璐嘉',0,0,12),
++(13,'032002113','柏丽芳',0,0,13),
++(14,'032002114','瞿友',0,0,14),
++(15,'032002115','杜振',0,0,15),
++(16,'032002116','家凡',0,0,16),
++(17,'032002117','昌海力',0,0,17),
++(18,'032002118','乜伊媛',0,0,18),
++(19,'032002119','褚燕',0,0,19),
++(20,'032002120','况旭',0,0,20),
++(21,'032002121','梁丘锦',0,0,21),
++(22,'032002122','童美',0,0,22),
++(23,'032002123','隆安生',0,0,23),
++(24,'032002124','支丹',0,0,24),
++(25,'032002125','羊舌蕊颖',0,0,25),
++(26,'032002126','姚倩',0,0,26),
++(27,'032002127','马全',0,0,27),
++(28,'032002128','夔利时',0,0,28),
++(29,'032002129','福眉琬',0,0,29),
++(30,'032002130','游妍',0,0,30),
++(31,'032002131','麴美',0,0,31),
++(32,'032002132','席义',0,0,32),
++(33,'032002133','张浩',0,0,33),
++(34,'032002134','宁蕊瑞',0,0,34),
++(35,'032002135','洪进武',0,0,35),
++(36,'032002136','浦珊',0,0,36),
++(37,'032002137','向凡',0,0,37),
++(38,'032002138','裴茗',0,0,38),
++(39,'032002139','鞠宁',0,0,39),
++(40,'032002140','仰环',0,0,40),
++(41,'032002141','边飘',0,0,41),
++(42,'032002142','花才',0,0,42),
++(43,'032002143','鲜于功',0,0,43),
++(44,'032002144','祁仁',0,0,44),
++(45,'032002145','东东茂',0,0,45),
++(46,'032002146','许瑞',0,0,46),
++(47,'032002147','柴伟元',0,0,47),
++(48,'032002148','霍心',0,0,48),
++(49,'032002149','邵志',0,0,49),
++(50,'032002150','赖伦东',0,0,50),
++(51,'032002151','王晶锦',0,0,51),
++(52,'032002152','仰璧枫',0,0,52),
++(53,'032002153','滑全',0,0,53),
++(54,'032002154','左倩洁',0,0,54),
++(55,'032002155','海彩',0,0,55),
++(56,'032002156','班坚明',0,0,56),
++(57,'032002157','温安飞',0,0,57),
++(58,'032002158','段承',0,0,58),
++(59,'032002159','晋蓉仪',0,0,59),
++(60,'032002160','邬伯维',0,0,60),
++(61,'032002161','巢可',0,0,61),
++(62,'032002162','屠茜秀',0,0,62),
++(63,'032002163','燕群顺',0,0,63),
++(64,'032002164','慎璧',0,0,64),
++(65,'032002165','池桂',0,0,65),
++(66,'032002166','凌春凡',0,0,66),
++(67,'032002167','薄和',0,0,67),
++(68,'032002168','狄毓',0,0,68),
++(69,'032002169','利安',0,0,69),
++(70,'032002170','傅融纯',0,0,70),
++(71,'032002171','夔河广',0,0,71),
++(72,'032002172','殴进',0,0,72),
++(73,'032002173','宦惠蓓',0,0,73),
++(74,'032002174','钟离绍',0,0,74),
++(75,'032002175','李凡',0,0,75),
++(76,'032002176','龚静芝',0,0,76),
++(77,'032002177','鱼月',0,0,77),
++(78,'032002178','滑会',0,0,78),
++(79,'032002179','邰强',0,0,79),
++(80,'032002180','严山',0,0,80),
++(81,'032002181','闵倩',0,0,81),
++(82,'032002182','後宁娴',0,0,82),
++(83,'032002183','饶莉梅',0,0,83),
++(84,'032002184','安瑶',0,0,84),
++(85,'032002185','暴澜荣',0,0,85),
++(86,'032002186','柴春',0,0,86),
++(87,'032002187','魏思',0,0,87),
++(88,'032002188','毛环玲',0,0,88),
++(89,'032002189','房泽国',0,0,89),
++(90,'032002190','姜军',0,0,90);
+Index: src/test/java/com/fzu/AlgorithmApplicationTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.fzu;\r\n\r\nimport com.fzu.entity.Student;\r\nimport com.fzu.service.StudentService;\r\nimport com.fzu.utils.Rand;\r\nimport com.fzu.utils.RandByScore;\r\nimport com.fzu.utils.RollCall;\r\nimport org.junit.jupiter.api.Test;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.boot.test.context.SpringBootTest;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\nimport java.util.Map;\r\n\r\n\r\n@SpringBootTest\r\nclass AlgorithmApplicationTests {\r\n\r\n    @Autowired\r\n    private StudentService studentService;\r\n    @Autowired\r\n    private RollCall rollCall;\r\n    @Autowired\r\n    private Rand rand;\r\n    @Autowired\r\n    private RandByScore randByScore;\r\n\r\n    /**\r\n     * 普通点名\r\n     */\r\n    @Test\r\n    void call() {\r\n        int cnt=0,valid=0;\r\n        //获取缺勤人员\r\n        Map<Integer, List<Integer>> absentMap1 = rand.function1();\r\n        Map<Integer, List<Integer>> absentMap2 = rand.function2();\r\n        for (int i=1;i<=20;i++){\r\n            //获取点名名单\r\n            List<Student> studentList = rollCall.getProgramme(i);\r\n            List<String> studentName=new ArrayList<>();\r\n            List<Integer> studentId=new ArrayList<>();\r\n            for (Student student : studentList) {\r\n                studentName.add(student.getName());\r\n                studentId.add(student.getId());\r\n            }\r\n            //打印点名名单\r\n//            System.out.print(\"第\"+i+\"天：\");\r\n//            System.out.println(studentName);\r\n            //更新请求次数\r\n            cnt+=studentList.size();\r\n            //获取缺勤人员名单\r\n            List<Integer> absentIdList=new ArrayList<>();\r\n            for (Integer absentId : absentMap1.keySet()) {\r\n                if (absentMap1.get(absentId).contains(i)){\r\n                    absentIdList.add(absentId);\r\n                }\r\n            }\r\n            absentIdList.addAll(absentMap2.get(i));\r\n            //打印缺勤人员名单\r\n//            for (Integer id : absentIdList) {\r\n//                System.out.println(studentService.getById(id).getName());\r\n//            }\r\n            //获取被点到缺勤人员名单\r\n            List<Integer> absentAndCallIdList=new ArrayList<>();\r\n            for (Integer absentId : absentIdList) {\r\n                if (studentId.contains(absentId)){\r\n                    absentAndCallIdList.add(absentId);\r\n                }\r\n            }\r\n            //更新有效点名次数\r\n            valid+=absentAndCallIdList.size();\r\n            //更新被点到缺勤次数\r\n            rollCall.updateAbsent(absentAndCallIdList);\r\n//            System.out.println(absentAndCallIdList);\r\n            //获取点到有来同学名单\r\n            studentId.removeAll(absentAndCallIdList);\r\n            //更新连续出席次数\r\n            studentService.updateConsecutiveAttendCntByIdList(studentId);\r\n        }\r\n        System.out.println(\"E=\"+1.0*valid/cnt);\r\n        init();\r\n    }\r\n\r\n    /**\r\n     * 根据绩点点名\r\n     */\r\n    @Test\r\n    void callByScore() {\r\n        int cnt=0,valid=0;\r\n        //获取缺勤人员\r\n        Map<Integer, List<Integer>> absentMap1 = randByScore.function1();\r\n        Map<Integer, List<Integer>> absentMap2 = randByScore.function2();\r\n        for (int i=1;i<=20;i++){\r\n            //获取点名名单\r\n            List<Student> studentList = rollCall.getProgrammeByScore(i);\r\n            List<String> studentName=new ArrayList<>();\r\n            List<Integer> studentId=new ArrayList<>();\r\n            for (Student student : studentList) {\r\n                studentName.add(student.getName());\r\n                studentId.add(student.getId());\r\n            }\r\n            //打印点名名单\r\n//            System.out.print(\"第\"+i+\"天：\");\r\n//            System.out.println(studentName);\r\n            //更新请求次数\r\n            cnt+=studentList.size();\r\n            //获取缺勤人员名单\r\n            List<Integer> absentIdList=new ArrayList<>();\r\n            for (Integer absentId : absentMap1.keySet()) {\r\n                if (absentMap1.get(absentId).contains(i)){\r\n                    absentIdList.add(absentId);\r\n                }\r\n            }\r\n            absentIdList.addAll(absentMap2.get(i));\r\n            //打印缺勤人员名单\r\n//            for (Integer id : absentIdList) {\r\n//                System.out.println(studentService.getById(id).getName());\r\n//            }\r\n            //获取被点到缺勤人员名单\r\n            List<Integer> absentAndCallIdList=new ArrayList<>();\r\n            for (Integer absentId : absentIdList) {\r\n                if (studentId.contains(absentId)){\r\n                    absentAndCallIdList.add(absentId);\r\n                }\r\n            }\r\n            //更新有效点名次数\r\n            valid+=absentAndCallIdList.size();\r\n            //更新被点到缺勤次数\r\n            rollCall.updateAbsent(absentAndCallIdList);\r\n//            System.out.println(absentAndCallIdList);\r\n            //获取点到有来同学名单\r\n            studentId.removeAll(absentAndCallIdList);\r\n            //更新连续出席次数\r\n            studentService.updateConsecutiveAttendCntByIdList(studentId);\r\n        }\r\n        System.out.println(\"E=\"+1.0*valid/cnt);\r\n        init();\r\n    }\r\n\r\n    @Test\r\n    void randCreate(){\r\n        Rand rand=new Rand();\r\n        System.out.println(rand.function1());\r\n        System.out.println(rand.function2());\r\n    }\r\n\r\n    @Test\r\n    void randByScoreCreate(){\r\n        RandByScore randByScore=new RandByScore();\r\n        System.out.println(randByScore.function1());\r\n        System.out.println(randByScore.function2());\r\n    }\r\n\r\n    /**\r\n     * 初始化学生表\r\n     */\r\n    @Test\r\n    void init(){\r\n        List<Student> list = studentService.list();\r\n        for (Student student : list) {\r\n            student.setValidCnt(0);\r\n            student.setConsecutiveAttendCnt(0);\r\n            studentService.updateById(student);\r\n        }\r\n    }\r\n\r\n    /**\r\n     * 调用100次普通点名\r\n     */\r\n    @Test\r\n    void testE(){\r\n        for (int i=0;i<100;i++){\r\n            call();\r\n        }\r\n    }\r\n\r\n    /**\r\n     * 调用100次根据绩点点名\r\n     */\r\n    @Test\r\n    void testE1(){\r\n        for (int i=0;i<100;i++){\r\n            callByScore();\r\n        }\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/com/fzu/AlgorithmApplicationTests.java b/src/test/java/com/fzu/AlgorithmApplicationTests.java
+--- a/src/test/java/com/fzu/AlgorithmApplicationTests.java	(revision aa086a81d6648f081aea486e97b1d3be091ffff5)
++++ b/src/test/java/com/fzu/AlgorithmApplicationTests.java	(date 1665507682257)
+@@ -101,8 +101,8 @@
+                 studentId.add(student.getId());
+             }
+             //打印点名名单
+-//            System.out.print("第"+i+"天：");
+-//            System.out.println(studentName);
++            System.out.print("第"+i+"天：");
++            System.out.println(studentName);
+             //更新请求次数
+             cnt+=studentList.size();
+             //获取缺勤人员名单
+@@ -138,20 +138,6 @@
+         init();
+     }
+ 
+-    @Test
+-    void randCreate(){
+-        Rand rand=new Rand();
+-        System.out.println(rand.function1());
+-        System.out.println(rand.function2());
+-    }
+-
+-    @Test
+-    void randByScoreCreate(){
+-        RandByScore randByScore=new RandByScore();
+-        System.out.println(randByScore.function1());
+-        System.out.println(randByScore.function2());
+-    }
+-
+     /**
+      * 初始化学生表
+      */
+@@ -166,23 +152,36 @@
+     }
+ 
+     /**
+-     * 调用100次普通点名
++     * 调用5次普通点名
+      */
+     @Test
+     void testE(){
+-        for (int i=0;i<100;i++){
++        for (int i=0;i<5;i++){
+             call();
+         }
+     }
+ 
+     /**
+-     * 调用100次根据绩点点名
++     * 调用5次根据绩点点名
+      */
+     @Test
+     void testE1(){
+-        for (int i=0;i<100;i++){
++        for (int i=0;i<5;i++){
+             callByScore();
+         }
+     }
+ 
++    @Test
++    void randCreate(){
++        Rand rand=new Rand();
++        System.out.println(rand.function1());
++        System.out.println(rand.function2());
++    }
++
++    @Test
++    void randByScoreCreate(){
++        RandByScore randByScore=new RandByScore();
++        System.out.println(randByScore.function1());
++        System.out.println(randByScore.function2());
++    }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f07ab05c-e188-4241-b948-c81ca4f74a3f\" name=\"变更\" comment=\"根据绩点点名方法的增加\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/fzu/utils/RandByScore.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/target/classes/com/fzu/utils/RandByScore.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/fzu/utils/Rand.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/fzu/utils/Rand.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/fzu/utils/Result.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/fzu/utils/Rand.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/fzu/utils/Rand.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"$PROJECT_DIR$/../../../Programming Language/maven/apache-maven-3.6.1\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\Programming Language\\maven\\apache-maven-3.6.1\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2FnxbDA0P8t55zuq2CEDpfbKNXa\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"jdk.selected.JAVA_MODULE\" value=\"1.8\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"project.structure.last.edited\" value=\"模块\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15332031\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\fzu\\软工\\dianming\\src\\main\\java\\com\\fzu\\utils\" />\r\n      <recent name=\"D:\\fzu\\软工\\dianming\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.AlgorithmApplicationTests.testE1\">\r\n    <configuration name=\"AlgorithmApplicationTests.callByScore\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"dianming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.fzu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.fzu\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.fzu.AlgorithmApplicationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"callByScore\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AlgorithmApplicationTests.randByScoreCreate\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"dianming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.fzu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.fzu\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.fzu.AlgorithmApplicationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"randByScoreCreate\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AlgorithmApplicationTests.test1\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"dianming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.fzu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.fzu\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.fzu.AlgorithmApplicationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"test1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AlgorithmApplicationTests.test2\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"dianming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.fzu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.fzu\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.fzu.AlgorithmApplicationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"test2\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AlgorithmApplicationTests.testE1\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"dianming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.fzu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.fzu\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.fzu.AlgorithmApplicationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"testE1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AlgorithmApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"dianming\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.fzu.AlgorithmApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.AlgorithmApplicationTests.testE1\" />\r\n        <item itemvalue=\"JUnit.AlgorithmApplicationTests.test2\" />\r\n        <item itemvalue=\"JUnit.AlgorithmApplicationTests.randByScoreCreate\" />\r\n        <item itemvalue=\"JUnit.AlgorithmApplicationTests.callByScore\" />\r\n        <item itemvalue=\"JUnit.AlgorithmApplicationTests.test1\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"f07ab05c-e188-4241-b948-c81ca4f74a3f\" name=\"变更\" comment=\"\" />\r\n      <created>1665141722525</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1665141722525</updated>\r\n      <workItem from=\"1665141724518\" duration=\"1735000\" />\r\n      <workItem from=\"1665143489500\" duration=\"8752000\" />\r\n      <workItem from=\"1665212806831\" duration=\"7948000\" />\r\n      <workItem from=\"1665249502919\" duration=\"4365000\" />\r\n      <workItem from=\"1665283687864\" duration=\"10531000\" />\r\n      <workItem from=\"1665318895874\" duration=\"1253000\" />\r\n      <workItem from=\"1665325815324\" duration=\"47000\" />\r\n      <workItem from=\"1665326991689\" duration=\"840000\" />\r\n      <workItem from=\"1665466862316\" duration=\"94000\" />\r\n      <workItem from=\"1665475072786\" duration=\"3217000\" />\r\n      <workItem from=\"1665480881633\" duration=\"51000\" />\r\n      <workItem from=\"1665494087456\" duration=\"2526000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"初始项目\">\r\n      <created>1665159329528</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665159329528</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"点名算法实现\">\r\n      <created>1665308038886</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665308038887</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"绩点排名参数增加\">\r\n      <created>1665327210839</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665327210840</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"初始项目\" />\r\n    <MESSAGE value=\"点名算法实现\" />\r\n    <MESSAGE value=\"绩点排名参数增加\" />\r\n    <MESSAGE value=\"根据绩点点名方法的增加\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"根据绩点点名方法的增加\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision aa086a81d6648f081aea486e97b1d3be091ffff5)
++++ b/.idea/workspace.xml	(date 1665550932406)
+@@ -5,18 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="根据绩点点名方法的增加">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RandByScore.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RandByScore.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/Rand.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/Result.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/Rand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/Rand.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/Result.class" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" afterDir="false" />
+     </list>
+@@ -67,6 +60,9 @@
+     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+   </component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\fzu\软工\dianming" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="D:\fzu\软工\dianming\src\main\java\com\fzu\utils" />
+       <recent name="D:\fzu\软工\dianming" />
+@@ -189,7 +185,9 @@
+       <workItem from="1665466862316" duration="94000" />
+       <workItem from="1665475072786" duration="3217000" />
+       <workItem from="1665480881633" duration="51000" />
+-      <workItem from="1665494087456" duration="2526000" />
++      <workItem from="1665494087456" duration="3445000" />
++      <workItem from="1665503518556" duration="4040000" />
++      <workItem from="1665550233631" duration="693000" />
+     </task>
+     <task id="LOCAL-00001" summary="初始项目">
+       <created>1665159329528</created>
+@@ -212,7 +210,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1665327210840</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="根据绩点点名方法的增加">
++      <created>1665497258119</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1665497258119</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring:\r\n  datasource:\r\n    driver-class-name: com.mysql.cj.jdbc.Driver\r\n    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2b8\r\n    username: root\r\n    password: root
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/application.yml b/src/main/resources/application.yml
+--- a/src/main/resources/application.yml	(revision aa086a81d6648f081aea486e97b1d3be091ffff5)
++++ b/src/main/resources/application.yml	(date 1665498034410)
+@@ -1,6 +1,6 @@
+ spring:
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+-    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2b8
++    url: jdbc:mysql://localhost:3306/fzu?serverTimezone=GMT%2b8
+     username: root
+-    password: root
+\ No newline at end of file
++    password: o20020515
+\ No newline at end of file

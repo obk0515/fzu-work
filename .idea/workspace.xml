@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07ab05c-e188-4241-b948-c81ca4f74a3f" name="变更" comment="根据绩点点名方法的增加">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RandByScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RandByScore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/Rand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/RollCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fzu/AlgorithmApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/entity/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/Rand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/Rand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/Result.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzu/utils/RollCall.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fzu/AlgorithmApplicationTests.class" afterDir="false" />
     </list>
@@ -34,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -67,6 +69,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fzu\软工\dianming" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\fzu\软工\dianming\src\main\java\com\fzu\utils" />
       <recent name="D:\fzu\软工\dianming" />
@@ -189,7 +194,9 @@
       <workItem from="1665466862316" duration="94000" />
       <workItem from="1665475072786" duration="3217000" />
       <workItem from="1665480881633" duration="51000" />
-      <workItem from="1665494087456" duration="2526000" />
+      <workItem from="1665494087456" duration="3445000" />
+      <workItem from="1665503518556" duration="4040000" />
+      <workItem from="1665550233631" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="初始项目">
       <created>1665159329528</created>
@@ -212,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665327210840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="根据绩点点名方法的增加">
+      <created>1665497258119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665497258119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

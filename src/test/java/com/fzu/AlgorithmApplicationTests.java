@@ -101,8 +101,8 @@ class AlgorithmApplicationTests {
                 studentId.add(student.getId());
             }
             //打印点名名单
-//            System.out.print("第"+i+"天：");
-//            System.out.println(studentName);
+            System.out.print("第"+i+"天：");
+            System.out.println(studentName);
             //更新请求次数
             cnt+=studentList.size();
             //获取缺勤人员名单
@@ -138,20 +138,6 @@ class AlgorithmApplicationTests {
         init();
     }
 
-    @Test
-    void randCreate(){
-        Rand rand=new Rand();
-        System.out.println(rand.function1());
-        System.out.println(rand.function2());
-    }
-
-    @Test
-    void randByScoreCreate(){
-        RandByScore randByScore=new RandByScore();
-        System.out.println(randByScore.function1());
-        System.out.println(randByScore.function2());
-    }
-
     /**
      * 初始化学生表
      */
@@ -166,23 +152,36 @@ class AlgorithmApplicationTests {
     }
 
     /**
-     * 调用100次普通点名
+     * 调用5次普通点名
      */
     @Test
     void testE(){
-        for (int i=0;i<100;i++){
+        for (int i=0;i<5;i++){
             call();
         }
     }
 
     /**
-     * 调用100次根据绩点点名
+     * 调用5次根据绩点点名
      */
     @Test
     void testE1(){
-        for (int i=0;i<100;i++){
+        for (int i=0;i<5;i++){
             callByScore();
         }
     }
 
+    @Test
+    void randCreate(){
+        Rand rand=new Rand();
+        System.out.println(rand.function1());
+        System.out.println(rand.function2());
+    }
+
+    @Test
+    void randByScoreCreate(){
+        RandByScore randByScore=new RandByScore();
+        System.out.println(randByScore.function1());
+        System.out.println(randByScore.function2());
+    }
 }

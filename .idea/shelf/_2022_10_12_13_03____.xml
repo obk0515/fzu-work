@@ -1,0 +1,24 @@
+<changelist name="在进行更新之前于_2022_10_12_13_03_取消提交了变更_[变更]" date="1665551039554" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_10_12_13_03_取消提交了变更_[变更]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行更新之前于 2022/10/12 13:03 取消提交了变更 [变更]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzu/service/impl/StudentServiceImpl.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzu/service/impl/StudentServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_10_12_13_03_取消提交了变更_[变更]/StudentServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/fzu/AlgorithmApplicationTests.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/fzu/AlgorithmApplicationTests.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_10_12_13_03_取消提交了变更_[变更]/AlgorithmApplicationTests.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzu/utils/Result.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzu/utils/RollCall.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzu/utils/RollCall.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_10_12_13_03_取消提交了变更_[变更]/RollCall.class" />
+  </binary>
+</changelist>
